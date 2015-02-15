@@ -1,0 +1,20 @@
+{
+    "name": "zoneroot/fbconnect",
+    "description": "facebook connection php class",
+    "license": "GNU GPL 2.0",
+    "authors": [
+        {
+            "name": "zoneroot",
+            "email": "djcharly71@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "facebook/php-sdk-v4" : "4.0.*"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "zoneroot\\fbconnect\\" : "src"
+        }
+    }
+}
